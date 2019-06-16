@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <script src="https://kit.fontawesome.com/2962e7b818.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Vinted.com | Sell and buy clothes, shoes and accessories.</title>
+</head>
+
+<body>
+  <div class="overlay">
+    <div class="register-box">
+      <div class="close-btn">
+        <i class="fas fa-times-circle"></i>
+      </div>
+      <div class="register-title">Join Vinted</div>
+      <div class="register-text">Sell pre-loved clothes - it's completely free. Join now!</div>
+      <div class="register-social-btns">
+        <a href="#" class="btn btn-social btn-fb">Continue with Facebook</a>
+        <a href="#" class="btn btn-social btn-google">Continue with Google</a>
+      </div>
+      <div class="register-native-btns display-flex">
+        <a class="border" href="#">Sign Up</a>
+        <a href="#">Log In</a>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <nav>
+
+      <div class="nav-top">
+        <div class="container display-flex">
+          <div>
+            <a href="#">
+              <img id="logo" src="images/logo.png" alt="Vinted logo">
+            </a>
+          </div>
+          <div class="search-bar display-flex">
+            <div id="searchBarLeftDesktop" class="search-bar-left">
+              <p><span>Catalog</span> <i class="fas fa-caret-down"></i></p>
+            </div>
+            <div id="searchBarDropdownDesktop" class="search-bar-dropdown">
+              <a href="#">Catalog</a>
+              <a href="#">Members</a>
+              <a href="#">Forum</a>
+              <a href="#">Help Center</a>
+            </div>
+            <div id="searchBarRightDesktop" class="search-bar-right display-flex">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Find an item">
+            </div>
+            <div id="deleteBtnDesktop" class="delete-btn">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div class="nav-buttons display-flex">
+            <a class="btn btn-transparent register-popup">Sign up | Log in</a>
+            <a href="#" class="btn btn-filled">Sell now</a>
+            <a href="#"><i class="far fa-question-circle"></i></a>
+          </div>
+          <div id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times display-none"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="mobileMenu">
+        <div class="mobile-menu-top">
+          <a href="#" class="btn btn-lg btn-filled mobile-menu-btn">Sell now</a>
+          <a href="#" class="btn btn-lg btn-transparent mobile-menu-btn">Sign up | Log in</a>
+          <a href="#" class="mobile-menu-toplink">Your Guide to Vinted</a>
+        </div>
+        <div class="mobile-menu-links">
+          <div class="mobile-menu-category">Categories</div>
+          <div class="mobile-menu-link"><i class="fas fa-female"></i> Women</div>
+          <div class="mobile-menu-link"><i class="fas fa-male"></i> Men</div>
+          <div class="mobile-menu-link"><i class="fas fa-child"></i> Kids</div>
+          <div class="mobile-menu-category">Discover</div>
+          <div class="mobile-menu-link">Learn how it works</div>
+          <div class="mobile-menu-link">Get the App</div>
+          <div class="mobile-menu-link">Help Center</div>
+          <div class="mobile-menu-link">Infoboard</div>
+          <div class="mobile-menu-category">Company</div>
+          <div class="mobile-menu-link">About us</div>
+          <div class="mobile-menu-link">Jobs</div>
+          <div class="mobile-menu-link">Press</div>
+          <div class="mobile-menu-link">Advertising</div>
+          <div class="mobile-menu-category">Policies</div>
+          <div class="mobile-menu-link">Trust and Safety</div>
+          <div class="mobile-menu-link">Privacy</div>
+          <div class="mobile-menu-link">Terms</div>
+          <div class="mobile-menu-link">Cookie policy</div>
+          <div class="mobile-menu-category">Privacy</div>
+          <div class="mobile-menu-link">Data settings</div>
+          <div class="mobile-menu-category">Community</div>
+          <div class="mobile-menu-link">Forum</div>
+        </div>
+      </div>
+
+      <div class="nav-bottom">
+        <div class="container display-flex">
+          <div class="nav-item">
+            <div id="womenMenuLink" class="nav-tab">Women</div>
+            <div id="womenMenu">
+              <div class="main-categories">
+                <div class="main-category active-category"><i class="fas fa-tshirt"></i> Clothes</div>
+                <div class="main-category"><i class="fas fa-shoe-prints"></i> Shoes</div>
+                <div class="main-category"><i class="fas fa-shopping-bag"></i> Bags</div>
+                <div class="main-category"><i class="fas fa-mitten"></i> Accessories</div>
+                <div class="main-category"><i class="fas fa-palette"></i> Cosmetics</div>
+              </div>
+              <div class="categories cat-clothes display-block">
+                <div class="category">See all</div>
+                <div class="category">Pullovers & sweaters</div>
+                <div class="category">Dresses</div>
+                <div class="category">Tops & T-shirts</div>
+                <div class="category">Shorts & Capris</div>
+                <div class="category">Swimwear & beachwear</div>
+                <div class="category">Maternity</div>
+                <div class="category">Costumes, special outfits</div>
+              </div>
+              <div class="categories cat-clothes display-block">
+                <div class="category">Coats & Jackets</div>
+                <div class="category">Suits & Blazers</div>
+                <div class="category">Skirts</div>
+                <div class="category">Pants</div>
+                <div class="category">Jumpsuits & rompers</div>
+                <div class="category">Lingerie</div>
+                <div class="category">Sportswear & accessories</div>
+                <div class="category">Other clothing</div>
+              </div>
+              <div class="categories cat-shoes">
+                <div class="category">See all</div>
+                <div class="category">Platform shoes</div>
+                <div class="category">Ballerinas</div>
+                <div class="category">Knee-length shoes</div>
+                <div class="category">Boat & slip-on shoes</div>
+                <div class="category">Wedges</div>
+                <div class="category">Sneakers</div>
+                <div class="category">Sport shoes</div>
+                <div class="category">Combat boots</div>
+                <div class="category">Clogs & mules</div>
+                <div class="category">Slippers</div>
+              </div>
+              <div class="categories cat-shoes">
+                <div class="category">High heels & pumps</div>
+                <div class="category">Flats</div>
+                <div class="category">Ankle boots</div>
+                <div class="category">Oxford shoes</div>
+                <div class="category">Slingbacks</div>
+                <div class="category">Sandals</div>
+                <div class="category">Chucks & converse Shoes</div>
+                <div class="category">Cowboy boots</div>
+                <div class="category">Wellington boots</div>
+                <div class="category">Flip flops</div>
+                <div class="category">Other shoes</div>
+              </div>
+              <div class="categories cat-bags">
+                <div class="category">See all</div>
+                <div class="category">Shoulder bags</div>
+                <div class="category">Tote bags</div>
+                <div class="category">Wallets</div>
+                <div class="category">Satchels</div>
+                <div class="category">Traditional / ethnic bags</div>
+                <div class="category">Luggage</div>
+              </div>
+              <div class="categories cat-bags">
+                <div class="category">Handbags</div>
+                <div class="category">Backpacks</div>
+                <div class="category">Clutches</div>
+                <div class="category">Makeup bags</div>
+                <div class="category">Bum bags</div>
+                <div class="category">Holdalls</div>
+                <div class="category">Other</div>
+              </div>
+              <div class="categories cat-accessories">
+                <div class="category">See all</div>
+                <div class="category">Watches</div>
+                <div class="category">Sunglasses</div>
+                <div class="category">Gloves</div>
+                <div class="category">Hair accessories</div>
+                <div class="category">Umbrellas</div>
+                <div class="category">Other accessories and jewelry</div>
+              </div>
+              <div class="categories cat-accessories">
+                <div class="category">Jewelry</div>
+                <div class="category">Belts</div>
+                <div class="category">Scarves & shawls</div>
+                <div class="category">Hats & caps</div>
+                <div class="category">Tech accessories</div>
+                <div class="category">Keyrings</div>
+              </div>
+              <div class="categories cat-cosmetics">
+                <div class="category">See all</div>
+                <div class="category">Facial care</div>
+                <div class="category">Body care</div>
+                <div class="category">Hand care</div>
+                <div class="category">Other cosmetics & tools</div>
+              </div>
+              <div class="categories cat-cosmetics">
+                <div class="category">Makeup</div>
+                <div class="category">Hair care</div>
+                <div class="category">Nail care</div>
+                <div class="category">Perfume</div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <div id="menMenuLink" class="nav-tab">Men</div>
+            <div id="menMenu">
+              <div class="categories display-block">
+                <div class="category">Coats & jackets</div>
+                <div class="category">Suits & blazers</div>
+                <div class="category">Pants</div>
+                <div class="category">Shoes</div>
+                <div class="category">Cosmetics & beauty items</div>
+                <div class="category">Swimwear</div>
+                <div class="category">Costumes & special outfits</div>
+              </div>
+              <div class="categories display-block">
+                <div class="category">Tops & T-Shirts</div>
+                <div class="category">Pullovers & sweaters</div>
+                <div class="category">Shorts & capri pants</div>
+                <div class="category">Accessories</div>
+                <div class="category">Underwear, socks</div>
+                <div class="category">Sportswear & accessories</div>
+                <div class="category">Other</div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <div id="kidsMenuLink" class="nav-tab">Kids</div>
+            <div id="kidsMenu">
+              <div class="categories display-block">
+                <div class="category">Girls clothes</div>
+                <div class="category">Toys & games</div>
+                <div class="category">Strollers</div>
+                <div class="category">Car seats & chairs</div>
+                <div class="category">Books & school supplies</div>
+              </div>
+              <div class="categories display-block">
+                <div class="category">Boys clothes</div>
+                <div class="category">Baby care</div>
+                <div class="category">Ride-on toys</div>
+                <div class="category">Kids' furniture</div>
+                <div class="category">Other</div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-item">
+            <div id="aboutMenuLink" class="nav-tab">About</div>
+            <div id="aboutMenu">
+              <div class="categories display-block">
+                <div class="category-header">Discover</div>
+                <div class="category">Learn how it works</div>
+                <div class="category">Get the App</div>
+                <div class="category">Help Center</div>
+                <div class="category">Infoboard</div>
+              </div>
+              <div class="categories display-block">
+                <div class="category-header">Policies</div>
+                <div class="category">Trust and Safety</div>
+                <div class="category">Privacy</div>
+                <div class="category">Terms</div>
+                <div class="category">Cookie Policy</div>
+              </div>
+              <div class="categories display-block">
+                <div class="category-header">Community</div>
+                <div class="category">Forum</div>
+              </div>
+              <div class="categories display-block">
+                <div class="category-header">Company</div>
+                <div class="category">About us</div>
+                <div class="category">Jobs</div>
+                <div class="category">Press</div>
+                <div class="category">Advertising</div>
+              </div>
+              <div class="categories display-block">
+                <div class="category-header">Privacy</div>
+                <div class="category">Data settings</div>
+              </div>
+            </div>
+          </div>
+          <div class="search-bar-mobile">
+            <div id="searchBarLeftMobile" class="search-bar-left">
+              <p><span>Catalog</span> <i class="fas fa-caret-down"></i></p>
+            </div>
+            <div id="searchBarDropdownMobile" class="search-bar-dropdown">
+              <a href="#">Catalog</a>
+              <a href="#">Members</a>
+              <a href="#">Forum</a>
+              <a href="#">Help Center</a>
+            </div>
+            <div id="searchBarRightMobile" class="search-bar-right display-flex">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Find an item">
+            </div>
+            <div id="deleteBtnMobile" class="delete-btn">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="banner-mobile">
+      <div class="banner-m-image"></div>
+      <div class="banner-m-content">
+        <div class="banner-m-title">Ready to declutter your closet?</div>
+        <a href="#" class="btn btn-lg btn-filled banner-m-btn">Sell now</a>
+        <div class="banner-m-text"><a href="#">Learn how it works</a></div>
+      </div>
+    </section>
+
+    <div class="container">
+
+      <section class="banner-desktop">
+        <div class="banner-left">
+          <div class="banner-title">Ready to declutter your closet?</div>
+          <a href="#" class="btn btn-lg btn-filled">Sell now</a>
+          <div class="banner-text"><a href="#">Learn how it works</a></div>
+        </div>
+        <div class="banner-right"></div>
+      </section>
+
+      <section class="content">
+
+        <!-- Items -->
+
+        <div class="items">
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user1.jpg"></div>
+              <div class="user-name">roarypanda</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item1.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user2.jpg"></div>
+              <div class="user-name">mightytiger</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item2.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user3.jpg"></div>
+              <div class="user-name">sleepyfish</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item3.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user4.jpg"></div>
+              <div class="user-name">silkyelephant</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item4.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user5.jpg"></div>
+              <div class="user-name">furryzebra</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item5.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user6.jpg"></div>
+              <div class="user-name">hotdog</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item6.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user7.jpg"></div>
+              <div class="user-name">furiousmonkey</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item7.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+          <div class="item-card">
+            <div class="item-top display-flex">
+              <div class="user-image"><img src="images/users/user8.jpg"></div>
+              <div class="user-name">shortsnake</div>
+            </div>
+            <div class="item-picture">
+              <img src="images/items/item8.jpg">
+            </div>
+            <div class="item-bottom">
+              <div>
+                <div class="item-info display-flex">
+                  <div class="item-price">&#36;15.00</div>
+                  <div class="item-favs"><i class="far fa-heart"></i> 25</div>
+                </div>
+                <div class="item-size">M / 8</div>
+                <div class="item-brand">Brand</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Promo -->
+
+        <div class="promo-side">
+          <div class="promo-box">
+            <div class="promo-title">Join us today!</div>
+            <div class="promo-text">Sell and buy second-hand wardrobe items. List what you don't wear and sell for free!
+            </div>
+            <a class="btn btn-darker register-popup">Create an account</a>
+          </div>
+          <div class="promo-ad">
+            <img src="images/ads/ad1.jpg">
+          </div>
+          <div class="promo-links">
+            <a href="#">About</a>
+            <a href="#">Press</a>
+            <a href="#">Get the App</a>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
